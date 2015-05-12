@@ -1,6 +1,6 @@
 //#include "basicDefines.hpp"
 #include "config_extra.hpp"
-#include "functions.hpp"
+#include "config_functions.hpp"
 
 class CfgVehicles
 {
