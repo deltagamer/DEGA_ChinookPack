@@ -3,3 +3,5 @@
 *.biprivatekey
 *.pbo
 *.bin
+addons/temp/
+addons/a3/
