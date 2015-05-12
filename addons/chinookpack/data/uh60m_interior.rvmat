@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="chinookpack\data\uh60m_interior_nohq.paa";
+	texture="data\uh60m_interior_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="chinookpack\data\uh60m_interior_AS.paa";
+	texture="data\uh60m_interior_AS.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="chinookpack\data\uh60m_interior_SMDI.paa";
+	texture="data\uh60m_interior_SMDI.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -92,6 +92,6 @@ class Stage7
 };
 class StageTI
 {
-	texture="chinookpack\data\UH60M_Interior_ti_ca.paa";
+	texture="data\UH60M_Interior_ti_ca.paa";
 };
 

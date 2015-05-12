@@ -1,9 +1,9 @@
 	class DEGA_BAF_CH47F_M134_M240: Helicopter_Base_H
 	{
 		author = "Deltagamer";
-		model = "\chinookpack\Chinook_BAF\BAF_CH_47F_HC2_M240.p3d";
-		picture = "\chinookpack\data\UI\Picture_ch47f_CA.paa";
-		icon = "\chinookpack\data\UI\Icon_ch47f_CA.paa";
+		model = "\Chinook_BAF\BAF_CH_47F_HC2_M240.p3d";
+		picture = "\data\UI\Picture_ch47f_CA.paa";
+		icon = "\data\UI\Icon_ch47f_CA.paa";
 		mapSize = 24;		
 		
 		driveOnComponent[] = {"Wheels"};
@@ -545,7 +545,7 @@
 			};				
 		};	
 		hiddenSelections[] = {"camo1", "camo2"};
-        hiddenSelectionsTextures[]={"\chinookpack\data\ch47_ext_1_baf_co.paa", "\chinookpack\data\ch47_ext_2_baf_co.paa"};			
+        hiddenSelectionsTextures[]={"\data\ch47_ext_1_baf_co.paa", "\data\ch47_ext_2_baf_co.paa"};			
 		animationList[]=
 		{
 			"DoorWinch_hide", 0,
@@ -560,7 +560,7 @@
 				author= "Bohemia Interactive";
 				textures[]= 
 				{
-					"\chinookpack\data\ch47_ext_1_baf_co.paa", "\chinookpack\data\ch47_ext_2_baf_co.paa"
+					"\data\ch47_ext_1_baf_co.paa", "\data\ch47_ext_2_baf_co.paa"
 				};
 				factions[]= 
 				{
@@ -573,7 +573,7 @@
 				author= "Bohemia Interactive";
 				textures[]= 
 				{
-					"\chinookpack\data\ch47_ext_1_co.paa", "\chinookpack\data\ch47_ext_2_co.paa"
+					"\data\ch47_ext_1_co.paa", "\data\ch47_ext_2_co.paa"
 				};
 				factions[]= 
 				{
@@ -586,7 +586,7 @@
 				author= "SyNcRoNiCzZ"; 
 				textures[]=
 				{
-					"\chinookpack\data\Skins\Black\ch47_ext_1_SyNcRoNiCzZ_Black_co.paa", "\chinookpack\data\Skins\Black\ch47_ext_2_SyNcRoNiCzZ_Black_co.paa"
+					"\data\Skins\Black\ch47_ext_1_SyNcRoNiCzZ_Black_co.paa", "\data\Skins\Black\ch47_ext_2_SyNcRoNiCzZ_Black_co.paa"
 				};
 				factions[]=
 				{
@@ -599,7 +599,7 @@
 				author= "SyNcRoNiCzZ";
 				textures[]= 
 				{
-					"\chinookpack\data\Skins\Grey\ch47_ext_1_SyNcRoNiCzZ_Grey_co.paa", "\chinookpack\data\Skins\Grey\ch47_ext_2_SyNcRoNiCzZ_Grey_co.paa"
+					"\data\Skins\Grey\ch47_ext_1_SyNcRoNiCzZ_Grey_co.paa", "\data\Skins\Grey\ch47_ext_2_SyNcRoNiCzZ_Grey_co.paa"
 				};
 				factions[]=
 				{
@@ -612,7 +612,7 @@
 				author= "CptDavo";
 				textures[]= 
 				{
-					"\chinookpack\data\Skins\Desert\ch47_ext_1_CptDavo_Desert_co.paa", "\chinookpack\data\Skins\Desert\ch47_ext_2_CptDavo_Desert_co.paa"
+					"\data\Skins\Desert\ch47_ext_1_CptDavo_Desert_co.paa", "\data\Skins\Desert\ch47_ext_2_CptDavo_Desert_co.paa"
 				};
 				factions[]= 
 				{
@@ -741,13 +741,13 @@
 			};						
 		};		
 		attenuationEffectType = "HeliAttenuation";
-		soundGetIn[] = {"chinookpack\data\sounds\close",0.31622776,1};
-		soundGetOut[] = {"chinookpack\data\sounds\open",0.31622776,1,40};
-		soundDammage[] = {"chinookpack\data\sounds\int-alarm_loop",0.56234133,1};
-		soundEngineOnInt[] = {"chinookpack\data\sounds\CH47_start_int",0.1,1.0};
-		soundEngineOnExt[] = {"chinookpack\data\sounds\CH47_start_ext",0.56234133,1.0,800};
-		soundEngineOffInt[] = {"chinookpack\data\sounds\CH47_stop_int",0.1,1.0};
-		soundEngineOffExt[] = {"chinookpack\data\sounds\CH47_stop_ext",0.56234133,1.0,800};
+		soundGetIn[] = {"data\sounds\close",0.31622776,1};
+		soundGetOut[] = {"data\sounds\open",0.31622776,1,40};
+		soundDammage[] = {"data\sounds\int-alarm_loop",0.56234133,1};
+		soundEngineOnInt[] = {"data\sounds\CH47_start_int",0.1,1.0};
+		soundEngineOnExt[] = {"data\sounds\CH47_start_ext",0.56234133,1.0,800};
+		soundEngineOffInt[] = {"data\sounds\CH47_stop_int",0.1,1.0};
+		soundEngineOffExt[] = {"data\sounds\CH47_stop_ext",0.56234133,1.0,800};
 		soundLocked[] = {"\A3\Sounds_F\weapons\Rockets\opfor_lock_1", 0.1, 1};
 		soundIncommingMissile[] = {"\A3\Sounds_F\weapons\Rockets\opfor_lock_2", 0.1, 1};
 		rotorDamageInt[] = {"a3\sounds_f\vehicles\air\noises\heli_damage_rotor_int_1", 1.0, 1.0};
@@ -784,20 +784,20 @@
 		{
 			class Engine
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_engine_high_ext", db0, 1.0, 800};
+				sound[] = {"data\sounds\CH47_engine_high_ext", db0, 1.0, 800};
 				frequency = "rotorSpeed";
 				volume = "camPos*((rotorSpeed-0.72)*4)";
 			};
 			class RotorLowOut
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_rotor_ext", db10, 1.0, 1500};
+				sound[] = {"data\sounds\CH47_rotor_ext", db10, 1.0, 1500};
 				frequency = "rotorSpeed";
 				volume = "camPos*(0 max (rotorSpeed-0.1))";
 				cone[] = {1.8, 3.14, 2.0, 0.9};
 			};
 			class RotorHighOut
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_rotor_forsage_ext", db10, 1.0, 1800};
+				sound[] = {"data\sounds\CH47_rotor_forsage_ext", db10, 1.0, 1800};
 				frequency = "rotorSpeed";
 				volume = "camPos*10*(0 max (rotorThrust-0.95))" ;
 				cone[] = {1.8, 3.14, 2.0, 0.9};
@@ -830,19 +830,19 @@
 		/* INTERNAL SOUNDS CH47 */
   			class EngineIn
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_engine_high_int", db5, 1.0};
+				sound[] = {"data\sounds\CH47_engine_high_int", db5, 1.0};
 				frequency = "rotorSpeed";
 			 	volume = "(1-camPos)*((rotorSpeed-0.75)*4)";
 			};
 			class RotorLowIn
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_rotor_int", db5, 1.0};
+				sound[] = {"data\sounds\CH47_rotor_int", db5, 1.0};
 				frequency = "rotorSpeed";
 				volume = "2*(1-camPos)*((rotorSpeed factor[0.3, 1.1]) min (rotorSpeed factor[1.1, 0.3]))";
 			};
 			class RotorHighIn
 			{
-				sound[] = {"chinookpack\data\sounds\CH47_rotor_forsage_int", db5, 1.0};
+				sound[] = {"data\sounds\CH47_rotor_forsage_int", db5, 1.0};
 				frequency = "rotorSpeed";
 				volume = "(1-camPos)*3*(rotorThrust-0.9)" ;
 			};
@@ -1041,33 +1041,33 @@
 		{
 			tex[] = {};
 			mat[] = {
-				"chinookpack\data\ch47_1.rvmat",
-				"chinookpack\data\ch47_1_damage.rvmat",
-				"chinookpack\data\ch47_1_destruct.rvmat",
+				"data\ch47_1.rvmat",
+				"data\ch47_1_damage.rvmat",
+				"data\ch47_1_destruct.rvmat",
 
-				"chinookpack\data\ch47_2.rvmat",
-				"chinookpack\data\ch47_2_damage.rvmat",
-				"chinookpack\data\ch47_2_destruct.rvmat",
+				"data\ch47_2.rvmat",
+				"data\ch47_2_damage.rvmat",
+				"data\ch47_2_destruct.rvmat",
 
-				"chinookpack\data\ch47_1_int.rvmat",
-				"chinookpack\data\ch47_1_int.rvmat",
-				"chinookpack\data\ch47_1_int_destruct.rvmat",
+				"data\ch47_1_int.rvmat",
+				"data\ch47_1_int.rvmat",
+				"data\ch47_1_int_destruct.rvmat",
 
-				"chinookpack\data\ch47_2_int.rvmat",
-				"chinookpack\data\ch47_2_int.rvmat",
-				"chinookpack\data\ch47_2_int_destruct.rvmat",
+				"data\ch47_2_int.rvmat",
+				"data\ch47_2_int.rvmat",
+				"data\ch47_2_int_destruct.rvmat",
 
-				"chinookpack\data\ch47_sklo_in.rvmat",
-				"chinookpack\data\ch47_sklo_in_damage.rvmat",
-				"chinookpack\data\ch47_sklo_in_damage.rvmat",
+				"data\ch47_sklo_in.rvmat",
+				"data\ch47_sklo_in_damage.rvmat",
+				"data\ch47_sklo_in_damage.rvmat",
 
-				"chinookpack\data\ch47_sklo.rvmat",
-				"chinookpack\data\ch47_sklo_damage.rvmat",
-				"chinookpack\data\ch47_sklo_damage.rvmat",
+				"data\ch47_sklo.rvmat",
+				"data\ch47_sklo_damage.rvmat",
+				"data\ch47_sklo_damage.rvmat",
 
 				"a3\data_f\default.rvmat",
 				"a3\data_f\default.rvmat",
-				"chinookpack\data\default_destruct.rvmat"
+				"data\default_destruct.rvmat"
 			};
 		};
 		irScanRangeMin = 0;

@@ -39,8 +39,8 @@
 		class TransportItems
 		{
 		};
-		//animationOpen = "chinookpack\data\Anim\Para_Medium_Start.rtm";
-		//animationDrop = "chinookpack\data\Anim\Para_Medium_Landing.rtm";
+		//animationOpen = "data\Anim\Para_Medium_Start.rtm";
+		//animationDrop = "data\Anim\Para_Medium_Landing.rtm";
 		animationOpen="A3\Air_F_Beta\Parachute_01\Data\Anim\para_opening.rtm";
 		animationDrop="A3\Air_F_Beta\Parachute_01\Data\Anim\para_landing.rtm";		
 		displayName="T10 Parachute";
@@ -49,9 +49,9 @@
 		audible=0;
 		castDriverShadow=1;
 		driverAction="chute_pos";		
-		model="\chinookpack\data\Static_Parachute\T10.p3d";
-		Icon="\chinookpack\data\UI\icomap_Para_CA.paa";
-		picture = "\chinookpack\data\UI\Para_CA.paa";
+		model="\data\Static_Parachute\T10.p3d";
+		Icon="\data\UI\icomap_Para_CA.paa";
+		picture = "\data\UI\Para_CA.paa";
 		simulation="parachute";		
 /*		soundEnviron[]=
 		{
@@ -133,7 +133,7 @@
 	{
 		scope=1;
 		side=-1;
-		model="chinookpack\data\Static_Parachute\backpack_holder.p3d";
+		model="data\Static_Parachute\backpack_holder.p3d";
 		icon="";
 		displayName="";
 		nameSound="";

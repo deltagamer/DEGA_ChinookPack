@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="chinookpack\data\m134_ti_ca.paa";
+	texture="data\m134_ti_ca.paa";
 };
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="chinookpack\data\minigun_nohq.paa";
+	texture="data\minigun_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="chinookpack\data\minigun_as.paa";
+	texture="data\minigun_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="chinookpack\data\minigun_smdi.paa";
+	texture="data\minigun_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -84,6 +84,6 @@ class Stage6
 };
 class Stage7
 {
-	texture="chinookpack\data\env_land_co.paa";
+	texture="data\env_land_co.paa";
 	uvSource="none";
 };

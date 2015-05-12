@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="chinookpack\data\stretcher_nohq.paa";
+	texture="data\stretcher_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{

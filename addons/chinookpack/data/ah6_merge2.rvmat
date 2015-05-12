@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="chinookpack\data\ah6_merge2_nohq.paa";
+	texture="data\ah6_merge2_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="chinookpack\data\ah6_merge2_as.paa";
+	texture="data\ah6_merge2_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="chinookpack\data\ah6_merge2_smdi.paa";
+	texture="data\ah6_merge2_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -92,5 +92,5 @@ class Stage7
 };
 class StageTI
 {
-	texture="chinookpack\data\ah6_merge2_ti_ca.paa";
+	texture="data\ah6_merge2_ti_ca.paa";
 };

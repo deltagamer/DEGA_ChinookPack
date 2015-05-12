@@ -19,8 +19,8 @@ class CfgPatches
 };
 class CfgCoreData
 {
-	cobraLight = "chinookpack\data\Static_Parachute\cobraSvetlo.p3d";
-	marker = "chinookpack\data\Static_Parachute\obrysove svetlo.p3d";
+	cobraLight = "data\Static_Parachute\cobraSvetlo.p3d";
+	marker = "data\Static_Parachute\obrysove svetlo.p3d";
 };
 class CfgVehicleClasses
 {
@@ -121,10 +121,10 @@ class CfgWeapons
             midRangeProbab=0.0099999998;
             maxRange=3;
             maxRangeProbab=0.0099999998;
-            begin1[] = {"chinookpack\data\Sounds\M240_s1",5,1,130};
-            begin2[] = {"chinookpack\data\Sounds\M240_s2",5,1,130};
-            begin3[] = {"chinookpack\data\Sounds\M240_s3",5,1,130};
-            begin4[] = {"chinookpack\data\Sounds\M240_s4",5,1,130};
+            begin1[] = {"data\Sounds\M240_s1",5,1,130};
+            begin2[] = {"data\Sounds\M240_s2",5,1,130};
+            begin3[] = {"data\Sounds\M240_s3",5,1,130};
+            begin4[] = {"data\Sounds\M240_s4",5,1,130};
             soundBegin[] = {"begin1",0.25,"begin2",0.25,"begin3",0.25,"begin4",0.25};
         };
         class close: manual
@@ -219,19 +219,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class KIA_Para_Pilot;
 		class chute_pos: Crew
 		{
-			file= "chinookpack\data\anim\chute_pos";
+			file= "data\anim\chute_pos";
 			interpolateTo[]={KIA_Para_Pilot,1};
 		};		
 		class CH47_Cargo_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Cargo";
+			file = "data\anim\CH47_Cargo";
 			interpolateTo[] = {"CH47_KIA_Cargo_EP1", 1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Cargo_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Cargo";
+			file = "data\anim\CH47_KIA_Cargo";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;
@@ -240,14 +240,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Cargo01_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Cargo01";
+			file = "data\anim\CH47_Cargo01";
 			interpolateTo[] = {"CH47_KIA_Cargo01_EP1", 1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Cargo01_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Cargo01";
+			file = "data\anim\CH47_KIA_Cargo01";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;
@@ -256,14 +256,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Cargo02_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Cargo02";
+			file = "data\anim\CH47_Cargo02";
 			interpolateTo[] = {"CH47_KIA_Cargo02_EP1", 1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Cargo02_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Cargo02";
+			file = "data\anim\CH47_KIA_Cargo02";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;
@@ -272,14 +272,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Cargo03_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Cargo03";
+			file = "data\anim\CH47_Cargo03";
 			interpolateTo[] = {"CH47_KIA_Cargo03_EP1", 1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Cargo03_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Cargo03";
+			file = "data\anim\CH47_KIA_Cargo03";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;
@@ -288,14 +288,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Pilot_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Pilot";
+			file = "data\anim\CH47_Pilot";
 			connectTo[] = {"CH47_KIA_Pilot_EP1", 1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Pilot_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Pilot";
+			file = "data\anim\CH47_KIA_Pilot";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;
@@ -304,14 +304,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Gunner_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Gunner02";
+			file = "data\anim\CH47_Gunner02";
 			connectTo[] = {"CH47_KIA_Gunner01_EP1",	1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Gunner_EP1: DefaultDie
 		{
 			actions="DeadActions";
-			file="chinookpack\data\anim\CH47_KIA_Gunner";
+			file="data\anim\CH47_KIA_Gunner";
 			speed=1e+010;
 			terminal=1;
 			soundEnabled=0;
@@ -324,14 +324,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CH47_Gunner01_EP1: Crew
 		{
-			file = "chinookpack\data\anim\CH47_Gunner";
+			file = "data\anim\CH47_Gunner";
 			connectTo[] = {"CH47_KIA_Gunner01_EP1",	1};
 			speed = 1e+010;
 		};
 		class CH47_KIA_Gunner01_EP1: DefaultDie
 		{
 			actions = "DeadActions";
-			file = "chinookpack\data\anim\CH47_KIA_Gunner01";
+			file = "data\anim\CH47_KIA_Gunner01";
 			speed = 1e+010;
 			terminal = 1;
 			soundEnabled = 0;

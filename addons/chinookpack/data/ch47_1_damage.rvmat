@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="chinookpack\data\ch47_ext_1_ti_ca.paa";
+	texture="data\ch47_ext_1_ti_ca.paa";
 };
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="chinookpack\data\ch47_ext_1_nohq.paa";
+	texture="data\ch47_ext_1_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
