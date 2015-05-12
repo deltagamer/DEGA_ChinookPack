@@ -34,15 +34,15 @@ class CfgVehicles
 		class RotorLibHelicopterProperties;	// External class reference
 	};
     // BAF HELICOPTERS //	
-	#include "Chinook_BAF\configs\BAF_CH47_Armed_M240_Config.hpp"
-	#include "Chinook_BAF\configs\BAF_CH47_Armed_Ramp_Config.hpp"
-	#include "Chinook_BAF\configs\BAF_CH47_Unarmed_Config.hpp"	
+	#include "\chinookpack\Chinook_BAF\configs\BAF_CH47_Armed_M240_Config.hpp"
+	#include "\chinookpack\Chinook_BAF\configs\BAF_CH47_Armed_Ramp_Config.hpp"
+	#include "\chinookpack\Chinook_BAF\configs\BAF_CH47_Unarmed_Config.hpp"	
     // US HELICOPTERS //	
-	#include "Chinook_USA\configs\USA_CH47_Armed_M240_Config.hpp"
-	#include "Chinook_USA\configs\USA_CH47_Armed_Ramp_Config.hpp"
-	#include "Chinook_USA\configs\USA_CH47_Unarmed_Config.hpp"	
+	#include "\chinookpack\Chinook_USA\configs\USA_CH47_Armed_M240_Config.hpp"
+	#include "\chinookpack\Chinook_USA\configs\USA_CH47_Armed_Ramp_Config.hpp"
+	#include "\chinookpack\Chinook_USA\configs\USA_CH47_Unarmed_Config.hpp"	
 	// support for older classnames //
 	#include "config_legacy_classnames.hpp"
 	// Parachute Config //
-	#include "data\Static_Parachute\configs\CH47_T10_Parachute_Config.hpp"		
+	#include "\chinookpack\data\Static_Parachute\configs\CH47_T10_Parachute_Config.hpp"		
 };

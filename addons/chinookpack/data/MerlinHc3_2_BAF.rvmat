@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="data\MerlinHC3_2_NOHQ.paa";
+	texture="chinookpack\data\MerlinHC3_2_NOHQ.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="data\MerlinHC3_2_SMDI.paa";
+	texture="chinookpack\data\MerlinHC3_2_SMDI.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -79,5 +79,5 @@ class Stage7
 
 class StageTI
 {
-	texture="data\MerlinHC3_2_TI_CA.paa";
+	texture="chinookpack\data\MerlinHC3_2_TI_CA.paa";
 };

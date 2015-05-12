@@ -8,7 +8,7 @@
 //Class ca_e : data\default_destruct.rvmat{
 class StageTI
 {
-	texture = "data\destruct_ti_ca.paa";
+	texture = "chinookpack\data\destruct_ti_ca.paa";
 };
 ambient[] = {0.22,0.24,0.22,1};
 diffuse[] = {0.22,0.24,0.22,1};

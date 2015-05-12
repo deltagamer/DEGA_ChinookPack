@@ -65,7 +65,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="data\ch47_glass_int_smdi.paa";
+	texture="chinookpack\data\ch47_glass_int_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -89,6 +89,6 @@ class Stage6
 };
 class Stage7
 {
-	texture="data\ch47_int_env_co.paa";
+	texture="chinookpack\data\ch47_int_env_co.paa";
 	uvSource="none";
 };

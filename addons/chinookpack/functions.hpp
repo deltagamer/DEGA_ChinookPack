@@ -4,19 +4,19 @@ class CfgFunctions
 	{
 		class Chinook 
 		{
-			file = "/functions"; 
+			file = "\chinookpack\functions"; 
 			class deploySeats {};
 			class dropSmoke {};	
 		};
         class Static_Line 
 		{
-             file = "/functions";
+             file = "\chinookpack\Functions";
              class canDeployStaticLine {};
              class deployStaticLine {};
         };	
 		class Delete_parachute
 		{
-			file="/functions";
+			file="\chinookpack\Functions";
 			class parachuteLanding{};
 		};		
 	};
