@@ -147,7 +147,12 @@
 			class _xx_B_Parachute
 			{
 				backpack = "B_Parachute";
-				count = 10;
+				count = 20;
+			};	
+			class _xx_B_Kitbag
+			{
+				backpack = "B_Kitbag_cbr";
+				count = 5;
 			};			
 		};
 		class TransportItems

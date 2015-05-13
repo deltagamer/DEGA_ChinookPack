@@ -131,8 +131,8 @@
 			};	
 			class _xx_B_Kitbag
 			{
-				backpack = "B_Parachute";
-				count = 20;
+				backpack = "B_Kitbag_cbr";
+				count = 5;
 			};			
 		};
 		class TransportItems
