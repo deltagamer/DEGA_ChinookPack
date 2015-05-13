@@ -113,7 +113,7 @@
      	cargoIsCoDriver[] = {"true", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false", "false"};
 		
 		transportSoldier = 34;
-		transportMaxBackpacks = 10;
+		transportMaxBackpacks = 30;
 
 		weapons[] = {CMFlareLauncher};
 		magazines[] = {168Rnd_CMFlare_Chaff_Magazine};
@@ -147,12 +147,7 @@
 			class _xx_B_Parachute
 			{
 				backpack = "B_Parachute";
-				count = 6;
-			};
-			class _xx_B_Parachute_static_line
-			{
-				backpack = "DEGA_T10_Parachute_backpack";
-				count = 25;
+				count = 10;
 			};			
 		};
 		class TransportItems

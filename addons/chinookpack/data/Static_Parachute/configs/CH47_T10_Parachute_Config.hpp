@@ -118,7 +118,8 @@
 	class DEGA_T10_Parachute_backpack: B_Parachute
 	{
 		author="Deltagamer";
-		scope=2;
+		scope=1;
+		scopeArsenal = 1;
 		displayName="T10 Parachute Bag";
 		ParachuteClass="DEGA_T10_Parachute";
 		maximumLoad=0;
