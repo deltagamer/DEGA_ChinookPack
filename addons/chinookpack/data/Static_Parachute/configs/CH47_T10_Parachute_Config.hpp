@@ -31,11 +31,7 @@
 		author="Deltagamer";
 		_generalMacro="NonSteerable_Parachute_F";
 		radarType = 0;
-		openingTime=5;
-		class EventHandlers: DefaultEventhandlers
-		{
-		    init = "_this call DEGA_fnc_parachuteLanding;";		
-		};			
+		openingTime=5;			
 		class TransportItems
 		{
 		};

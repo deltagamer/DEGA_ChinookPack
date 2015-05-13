@@ -14,7 +14,6 @@ class CfgFunctions
 			file = "\chinookpack\Functions";
 			class canDeployStaticLine {};
 			class deployStaticLine {};
-			class parachuteLanding{};
 		};
 	};
 };

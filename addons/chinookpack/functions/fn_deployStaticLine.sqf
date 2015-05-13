@@ -114,5 +114,5 @@ _caller attachTo [_vehicle,[0,0,0],"para_eject"];
     waitUntil {isTouchingGround _caller};
     deletevehicle _chute;
     _caller allowDamage true;
-
+    _caller switchMove "AmovPercMevaSrasWrflDf_AmovPknlMstpSrasWrflDnon"; 
 };
