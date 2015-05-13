@@ -37,7 +37,7 @@ _caller setdir ((getDir _vehicle) - 180);
 _caller attachTo [_vehicle,[0,0,0],"para_eject"];
 
 /* JUMP */
-[_caller,_hadBackpack,_class,_weapons,_magazines,_items] spawn {
+[_caller,_hadBackpack,_class,_magazines,_weapons,_items] spawn {
     private ["_caller","_hadBackpack","_class","_magazines","_weapons","_items"]; 
     _caller = _this select 0;
     _hadBackpack = _this select 1;
