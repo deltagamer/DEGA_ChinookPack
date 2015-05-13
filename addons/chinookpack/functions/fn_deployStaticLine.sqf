@@ -38,12 +38,13 @@ _caller attachTo [_vehicle,[0,0,0],"para_eject"];
 
 /* JUMP */
 [_caller,_hadBackpack,_class,_magazines,_items] spawn {
-    private ["_caller","_hadBackpack","_class","_magazines","_items"]; 
+    private ["_caller","_hadBackpack","_class","_magazines","_weapons","_items"]; 
     _caller = _this select 0;
     _hadBackpack = _this select 1;
     _class = _this select 2;
     _magazines = _this select 3;
-    _items = _this select 4;
+    _weapons = _this select 4;
+    _items = _this select 5;
      
     /* actual jump */
     detach _caller;
