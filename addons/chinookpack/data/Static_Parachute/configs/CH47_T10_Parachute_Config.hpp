@@ -1,6 +1,7 @@
 
 	//Parachutes
-	class DEGA_T10_Parachute: Helicopter
+	class parachuteBase;	
+	class DEGA_T10_Parachute: parachuteBase
 	{
 		scope = 1;
 		scopeArsenal = 0;
