@@ -65,6 +65,12 @@
 [*]Changelog[*]
 
 
+== v1.7.5.2 ==
+
+- Changed parachute inheritance to parachuteBase
+- Adjusted backpack spawn position when deployed
+
+
 == v1.7.5.1 ==
 
 - Removed Redundant static_line_eject script
