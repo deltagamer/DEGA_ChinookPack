@@ -1,0 +1,51 @@
+ChinookPack v1.7.5 How to use Advanced Features
+
+
+
+AGM Fastroping
+
+In order to use the Advanced Gameplay Modification's Fastrope feature you must be below 
+27 meters in terrain altitude and open the Self-Interaction menu whilst in any seat inside
+the Chinook. You should now see 'Deploy Rope' once deployed re-open the menu and now select 
+'Fastrope'
+
+
+
+Chinooks Rear Ramp
+
+In order to use the rear ramp of the Chinook you must now either be a pilot or co-pilot.
+The reason behind this choice is because of players screwing around with the ramp in 
+public servers - Tested on 3CB with feedback from pilot members. 
+
+
+
+Crew-Chief Features
+
+In order to use any of these features you must firstly make sure you are in the correct 
+seat. To access the Crew-Chiefs position you can either enter it from the Crew Door or
+by entering the Ramp Crew position and scroll wheeling to switch to the Crew-Chief.
+
+Abilities:
+
+1:- Open Cargo Hatch - This locks all the seats that are on the floor of the Chinook and 
+    opens the hell hole. Currently no features regarding the hell hole.
+2:- Fold Seats - This locks all the seats that are on the red chairs and folds them. This then 
+    adds the ability to the Crew-Chief to Deploy Stretchers that will unfold the stretchers 
+	and allow them to be used.
+3:- Remove Pilot Doors - This removes the front side doors of the cockpit allowing the 
+    Pilot and Co-pilot to drop smoke from the cockpit and see better in first person mode. 
+	In return it makes the Pilots vulnerable to gunfire. 
+
+	
+
+Static Line Parachutes
+
+In order to use the static line parachutes you must consider the following: 
+
+1:- The Helicopters terrain altitude must be above 140 Meters.
+2:- The Rear Ramp must also be either open or level
+3:- The Player must be in any of the Cargo seats (this includes ffv crew positions)
+
+If done correctly all players in the cargo seat will see a Blue action near the bottom of 
+the action menu called 'Static Line Paradrop' This will eject the player with a T10 Parachute
+and safely land them keeping all of their gear and any backpacks they had equipped.
