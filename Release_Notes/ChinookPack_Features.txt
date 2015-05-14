@@ -1,0 +1,22 @@
+ChinookPack v1.7.5 Features
+
+Troop capacity of 35 players
+Changeable Camouflages
+Static Line Parachute drops
+Deployable Medical Stretchers
+Usable Co-Pilot FLIR Pod
+Changeable Multi-Function Displays
+Working Crew Positions
+Hide-able Components
+Removable Cargo Hatch
+Removable Pilot doors
+Open-able Crew Door
+Ability to add decals 
+Ability to Raise, Lower and Level rear ramp
+Pilots and Co-Pilots can drop smoke from cockpit
+Different variants of each Helicopter
+ACE3 and AGM Support
+AGM fastrope support
+Vanilla Sling Loading compatibility
+Vanilla Virtual Garage compatibility
+Vanilla Firing From Vehicles compatibility

@@ -874,7 +874,7 @@
 			
 			class Pilot_Smoke_Grenade
 			{
-				displayName="<t color='00CC00'>Drop Smoke Grenade Right</t>";
+				displayName="<t color='#FFFFFF'>Drop Smoke Grenade Right</t>";
 				displayNameDefault="";
 				showwindow = 0;
 				position="";
@@ -886,7 +886,7 @@
 			};
 			class COPilot_Smoke_Grenade
 			{
-				displayName="<t color='00CC00'>Drop Smoke Grenade Left</t>";
+				displayName="<t color='#FFFFFF'>Drop Smoke Grenade Left</t>";
 				displayNameDefault="";
 				showwindow = 0;
 				position="";
