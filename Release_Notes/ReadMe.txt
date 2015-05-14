@@ -59,8 +59,17 @@
 
 - Theebu - http://forums.bistudio.com/member.php?100812-theebu
 
+- Lifetap - http://forums.bistudio.com/member.php?221365-Lifetap
+
 
 [*]Changelog[*]
+
+
+== v1.7.5.1 ==
+
+- Removed Redundant static_line_eject script
+- Fixed Rpt Colour spam with useraction
+- Added Documentation of Adv Features
 
 
 == v1.7.5 ==
@@ -242,6 +251,8 @@
   * Interior
 
 - Need to look at redoing the UV map for the Winch
+- American Chinooks needs an overhaul
+- Bone/points rpt errors with the models 
 
 
  
