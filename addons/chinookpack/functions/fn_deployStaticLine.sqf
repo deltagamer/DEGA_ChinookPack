@@ -79,7 +79,7 @@ _caller attachTo [_vehicle,[0,0,0],"para_eject"];
         _packHolder addBackpackCargoGlobal [_class, 1];
         _lower_line = "backpack_holder" createVehicle (getpos _caller);
         _lower_line attachTo [vehicle _caller,[0,0,0],"zamerny"];
-        _packHolder attachTo [vehicle _caller,[-0.1,0.45,-11.4]]; 
+        _packHolder attachTo [vehicle _caller,[-0.1,0.55,-3.6]]; 
         _packHolder setVectorDirAndUp [[0,0,-1],[0,1,0]];
     };
 
