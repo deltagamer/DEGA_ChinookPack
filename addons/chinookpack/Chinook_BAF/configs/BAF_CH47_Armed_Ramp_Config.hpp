@@ -899,7 +899,7 @@
 		};
 		class EventHandlers: DefaultEventhandlers
 		{
-		    init = "if (local (_this select 0)) then { [(_this select 0),[],true,[],[5,6,7,8]] call DEGA_fnc_deploySeats; }; [_this select 0] execVM ""chinookpack\data\Static_Parachute\scripts\static_line_init.sqf"";";
+		    init = "if (local (_this select 0)) then { [(_this select 0),[],true,[],[5,6,7,8]] call DEGA_fnc_deploySeats; };";
 		};
 		class HitPoints: HitPoints
 		{

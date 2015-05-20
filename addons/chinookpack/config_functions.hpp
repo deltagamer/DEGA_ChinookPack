@@ -8,12 +8,5 @@ class CfgFunctions
 			class deploySeats {};
 			class dropSmoke {};	
 		};
-
-		class Static_Line_Parachute
-		{
-			file = "\chinookpack\Functions";
-			class canDeployStaticLine {};
-			class deployStaticLine {};
-		};
 	};
 };
