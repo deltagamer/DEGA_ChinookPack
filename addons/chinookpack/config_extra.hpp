@@ -27,11 +27,6 @@ class CfgPatches
 		};
 	};
 };
-class CfgCoreData
-{
-	cobraLight = "chinookpack\data\Static_Parachute\cobraSvetlo.p3d";
-	marker = "chinookpack\data\Static_Parachute\obrysove svetlo.p3d";
-};
 class CfgVehicleClasses
 {
 	class CH47_CH_47F
@@ -217,21 +212,14 @@ class CfgMovesBasic
 		CH47_Cargo03_EP1 = "CH47_Cargo03_EP1";
 		CH47_Gunner_EP1 = "CH47_Gunner_EP1";
 		CH47_Gunner01_EP1 = "CH47_Gunner01_EP1";
-		CH47_Pilot_EP1 = "CH47_Pilot_EP1";	
-		chute_pos = "chute_pos";		
+		CH47_Pilot_EP1 = "CH47_Pilot_EP1";			
 	};
 };
 class CfgMovesMaleSdr: CfgMovesBasic
 {
 	class States
 	{
-		class Crew;
-		class KIA_Para_Pilot;
-		class chute_pos: Crew
-		{
-			file= "chinookpack\data\anim\chute_pos";
-			interpolateTo[]={KIA_Para_Pilot,1};
-		};		
+		class Crew;	
 		class CH47_Cargo_EP1: Crew
 		{
 			file = "chinookpack\data\anim\CH47_Cargo";
