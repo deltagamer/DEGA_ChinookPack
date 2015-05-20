@@ -64,6 +64,11 @@
 
 [*]Changelog[*]
 
+== v1.7.5.5 ==
+
+- Removed Static Parachute Feature
+- Removed Parachute files and Config
+
 
 == v1.7.5.2 ==
 

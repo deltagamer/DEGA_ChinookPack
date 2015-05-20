@@ -15,7 +15,7 @@ class CfgPatches
 		    "DEGA_T10_Parachute_backpack"
 		};
 		weapons[] = {};
-		requiredVersion = 1.7.5;
+		requiredVersion = 1.7.5.5;
 		requiredAddons[] = 
 		{
 		    "A3_Air_F", 			
