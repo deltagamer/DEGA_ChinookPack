@@ -42,7 +42,5 @@ class CfgVehicles
 	#include "\chinookpack\Chinook_USA\configs\USA_CH47_Armed_Ramp_Config.hpp"
 	#include "\chinookpack\Chinook_USA\configs\USA_CH47_Unarmed_Config.hpp"	
 	// support for older classnames //
-	#include "config_legacy_classnames.hpp"
-	// Parachute Config //
-	#include "\chinookpack\data\Static_Parachute\configs\CH47_T10_Parachute_Config.hpp"		
+	#include "config_legacy_classnames.hpp"		
 };
