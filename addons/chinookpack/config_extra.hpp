@@ -10,9 +10,7 @@ class CfgPatches
 		    "DEGA_BAF_CH47F_M134_M240",
 		    "DEGA_US_CH47F_Unarmed",
 		    "DEGA_US_CH47F_M134",
-		    "DEGA_US_CH47F_M134_M240", 
-		    "DEGA_T10_Parachute",
-		    "DEGA_T10_Parachute_backpack"
+		    "DEGA_US_CH47F_M134_M240" 
 		};
 		weapons[] = {};
 		requiredVersion = 1.7.5.5;

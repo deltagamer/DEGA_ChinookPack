@@ -1,4 +1,4 @@
-ChinookPack v1.7.5 Features
+ChinookPack v1.7.5.5 Features
 
 Troop capacity of 35 players
 Changeable Camouflages
